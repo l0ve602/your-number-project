@@ -46,10 +46,10 @@ body{
 
 
 @media (max-width: 600px){
-    body{
-        font-size: 105%;
+   
+    #input-number{
+        width: 65%;
     }
-  
     .container, .result-area, .about-area{
         width: 92%;
         border: 1px solid black;
