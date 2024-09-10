@@ -46,9 +46,14 @@ body{
 
 
 @media (max-width: 600px){
-   
+    body{
+        font-size: 105%;
+    }   
     #input-number{
-        width: 65%;
+        width: 60%;
+    }
+    input::placeholder{
+        font-size: 90%;
     }
     .container, .result-area, .about-area{
         width: 92%;
@@ -63,6 +68,6 @@ body{
         font-size: 85%;
     }
     .title{
-        font-size: 60px;
+        font-size: 54px;
     }
 }
