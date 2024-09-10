@@ -1,53 +1,61 @@
+
 body{
     font-size: 120%;
     background-color: black;
-    /* background-color: black; */
     color: white;
-    
-    
+}
+
+
+.container, .result-area, .about-area{
+    border: 1px solid black;
+    width: 60%;
+    margin: 10px auto;
 }
 
 .container{
-    /* border: 1px solid black; */
-    width: 75%;
-    position: relative;
-    margin-top: 19%
-    
+    padding-top: 360px;
+    text-align: center;
+}
+
+.result-area{
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+    padding-top: 160px;
+}
+
+.about-text{
+    padding-top: 100px;
 }
 .title{
     font-size: 64px;
     font-weight: bold;
 }
-.input-area{
-    /* border: 1px solid red; */
-    text-align: center;
-}
+
+
 
 .result-area{
-    /* border: 1px solid gray; */
-    text-align: center;
-    
+    height: 100px;
 }
 
-.about-area{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 450px
-    
-    
-}
-.about{
-    /* border: 1px yellow solid; */
-    text-align: center;
-    top: 50%;
-}
-.about-text{
-    /* border: 1px solid red; */
-    padding: 2em;
-    
-}
-.CU{
-    margin-left: 36px;
-    text-align: left;
+
+
+
+
+
+@media (max-width: 600px){
+    .container, .result-area, .about-area{
+        width: 92%;
+        border: 1px solid black;
+        /* margin-top: 10px; */
+        margin: 10px auto;
+    }
+    .container{
+        padding-top: 50%;
+    }
+    .result-area{
+        font-size: 85%;
+    }
 }
