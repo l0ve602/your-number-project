@@ -46,6 +46,10 @@ body{
 
 
 @media (max-width: 600px){
+    body{
+        font-size: 105%;
+    }
+  
     .container, .result-area, .about-area{
         width: 92%;
         border: 1px solid black;
@@ -57,5 +61,8 @@ body{
     }
     .result-area{
         font-size: 85%;
+    }
+    .title{
+        font-size: 60px;
     }
 }
